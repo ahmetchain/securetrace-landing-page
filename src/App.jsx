@@ -17,7 +17,7 @@ function App() {
   const carouselRef = useRef(null);
   const nextSlide = () => {
     carouselRef.current.scrollIntoView({ behavior: "smooth" });
-  }
+  };
   return (
     <>
       <div className="h-screen">
