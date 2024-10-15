@@ -12,6 +12,7 @@ import secureTrace2 from "./assets/img/2.png";
 import secureTrace3 from "./assets/img/3.png";
 import secureTrace4 from "./assets/img/4.png";
 import Footer from "./Components/Footer";
+import HowItWorks from "./Components/HowItWorks";
 function App() {
   const images = [secureTrace, secureTrace2, secureTrace3, secureTrace4];
   const carouselRef = useRef(null);
@@ -26,7 +27,7 @@ function App() {
         <div className="px-20 flex flex-col gap-y-20 mb-20">
           <AboutSection />
           <div ref={carouselRef}>
-            <SectionHeader bg={true} />
+            <SectionHeader title={"Who We Are"} bg={true} />
           </div>
           <FeatureSections
             Img={Security}
@@ -45,6 +46,7 @@ function App() {
             Button={"Contact Us"}
             Reverse={true}
           />
+          <HowItWorks />
         </div>
         <div className="px-10 mt-10 lg:mt-0 mb-10 lg:mb-0">
           <InfiniteCarousel images={images} />
