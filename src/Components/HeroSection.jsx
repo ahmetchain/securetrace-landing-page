@@ -25,7 +25,7 @@ export default function HeroSection({scroll}) {
         <nav className="flex items-center justify-center gap-x-4 sm:gap-x-8 md:gap-x-20 md:mt-5">
           <a
             className="rounded-full text-nowrap font-semibold px-4 py-2 text-[14px] sm:px-6 sm:py-3 md:px-8 md:py-4 bg-blue-500 hover:bg-blue-600 text-white md:text-xl transition-all duration-300 ease-in-out shadow-lg"
-            href="https://wa.me/905304200064"
+            href="mailto:info@securetrace.ai"
             target="_blank"
           >
             Contact Us

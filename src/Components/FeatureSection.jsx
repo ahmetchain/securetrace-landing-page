@@ -33,7 +33,7 @@ export default function FeatureSections({
             {Paragraph}
           </p>
           <a
-            href="https://wa.me/905304200064"
+            href="mailto:info@securetrace.ai"
             target="_blank"
             className="inline-flex cursor-pointer mt-5 px-4 py-2 sm:px-6 sm:py-3 md:px-8 md:py-4 bg-blue-500 hover:bg-blue-600 text-white font-semibold text-sm sm:text-lg rounded-full transition-all duration-300 ease-in-out shadow-lg"
           >

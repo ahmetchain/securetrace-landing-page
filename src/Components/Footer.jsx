@@ -24,7 +24,9 @@ export default function Footer() {
       <div className="relative z-10 container mx-auto px-4 py-28">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h2 className="text-3xl font-bold text-white">Secure <span className="text-blue-500">Trace</span></h2>
+            <h2 className="text-3xl font-bold text-white">
+              Secure <span className="text-blue-500">Trace</span>
+            </h2>
             <p className="text-sm text-gray-300">
               Ensuring the security of your digital infrastructure with advanced
               monitoring and log management solutions.
@@ -36,7 +38,7 @@ export default function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://wa.me/905304200064"
+                  href="mailto:info@securetrace.ai"
                   target="_blank"
                   className="hover:text-gray-300 transition duration-300"
                 >
@@ -50,21 +52,12 @@ export default function Footer() {
             <h3 className="text-xl font-semibold text-white">Contact</h3>
             <ul className="space-y-2 text-sm">
               <li className="flex items-center space-x-2">
-                <FaPhone className="text-gray-400" />
-                <a
-                  href="tel:+905304200064"
-                  className="hover:text-gray-300 transition duration-300"
-                >
-                  +90 530 420 00 64
-                </a>
-              </li>
-              <li className="flex items-center space-x-2">
                 <FaEnvelope className="text-gray-400" />
                 <a
-                  href="mailto:info@paraph.io"
+                  href="mailto:info@securetrace.ai"
                   className="hover:text-gray-300 transition duration-300"
                 >
-                  info@paraph.io
+                  info@securetrace.ai
                 </a>
               </li>
             </ul>
@@ -82,12 +75,12 @@ export default function Footer() {
                 <FaInstagram />
               </a>
               <a
-                href="https://wa.me/905304200064"
+                href="mailto:info@securetrace.ai"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-2xl hover:text-green-500 transition duration-300"
+                className="text-2xl hover:text-blue-500 transition duration-300"
               >
-                <FaWhatsapp />
+                <FaEnvelope />
               </a>
               <a
                 href="https://www.google.com/maps/place/Yelken+Plaza/@40.9107789,29.2971253,17z/data=!3m1!4b1!4m6!3m5!1s0x14cada4be6c85f6b:0xfd1971b61a6163b!8m2!3d40.9107789!4d29.2971253!16s%2Fg%2F1hc4k95tc?entry=ttu&g_ep=EgoyMDI0MTAwMS4wIKXMDSoASAFQAw%3D%3D"
@@ -99,7 +92,7 @@ export default function Footer() {
               </a>
             </div>
             <a
-              href="https://wa.me/905304200064"
+              href="mailto:info@securetrace.ai"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-2 bg-white text-gray-900 font-bold rounded-full hover:bg-gray-200 transition duration-300 text-sm"

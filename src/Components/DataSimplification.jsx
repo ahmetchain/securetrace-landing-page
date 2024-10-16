@@ -1,32 +1,48 @@
 import React from "react";
-import Data from "../assets/img/file.webp";
+import BigData from "../assets/img/bigdata.webp";
+import BlueKey from "../assets/img/bluekey.webp";
 
 const DataSimplificationSection = () => {
   return (
-    <div className="flex flex-col lg:flex-row items-center justify-between py-16 bg-white">
-      {/* Left: Image */}
-      <div className="w-full lg:w-1/2 mb-8 lg:mb-0">
-        <img
-          src={Data}
-          alt="Data Simplification"
-          className="w-full rounded-lg shadow-lg"
-        />
-      </div>
+    <div className="bg-gray-100 py-16">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+        {/* Card 1 */}
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+          <img
+            src={BigData}
+            alt="Data Analysis and Organization"
+            className="w-full h-64 object-cover"
+          />
+          <div className="p-6 flex-grow">
+            <h3 className="text-2xl font-bold mb-4">
+              Data Analysis and Organization
+            </h3>
+            <p className="text-gray-600 mb-4">
+              With SecureTrace, eliminate data complexity. Easily track your data and gain meaningful insights. Our platform helps you organize and analyze your data efficiently, ensuring you can make informed decisions quickly.
+            </p>
+            <p className="text-gray-600">
+              Enhance your business operations by identifying critical issues faster and improving overall efficiency. SecureTrace provides real-time data monitoring and smart analytics to streamline your workflow seamlessly.
+            </p>
+          </div>
+        </div>
 
-      <div className="w-full lg:w-1/2 text-center lg:text-left px-6">
-        <h2 className="text-4xl font-bold mb-4">
-          Manage Your Data Easily, Eliminate Complexity
-        </h2>
-        <p className="text-lg text-gray-600 mb-4">
-          SecureTrace simplifies complex data structures on your servers, making
-          them more understandable and readable. This allows you to identify
-          critical issues faster and increase your business efficiency. With
-          real-time data monitoring and smart analytics, streamline your
-          workflow seamlessly.
-        </p>
-        <button className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all duration-300">
-          Learn More
-        </button>
+        {/* Card 2 */}
+        <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
+          <img
+            src={BlueKey}
+            alt="Security with Blockchain"
+            className="w-full h-64 object-cover "
+          />
+          <div className="p-6 flex-grow">
+            <h3 className="text-2xl font-bold mb-4">Security with Blockchain</h3>
+            <p className="text-gray-600 mb-4">
+              Secure your data with blockchain technology. Each transaction is recorded in an immutable and transparent manner, ensuring the highest level of security. Protect your data from tampering and unauthorized access.
+            </p>
+            <p className="text-gray-600">
+              Blockchain provides a decentralized and secure way to store your data, making it nearly impossible for malicious actors to alter or delete records. Trust SecureTrace to keep your data safe and secure.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -7,7 +7,7 @@ export default function Header() {
 
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > lastScrollY) {
+      if (window.scrollY < 50 || window.scrollY > lastScrollY) {
         // Scrolling down
         setIsVisible(true);
       } else {
@@ -45,7 +45,7 @@ export default function Header() {
           <li className="cursor-pointer text-[9px] md:text-sm lg:text-base font-semibold text-white">
             HOME
           </li>
-          <a href="https://wa.me/905304200064" target="_blank">
+          <a href="mailto:info@securetrace.ai" target="_blank">
             <li className="flex items-center cursor-pointer text-[9px] md:text-sm lg:text-base font-semibold text-white opacity-80">
               CONTACT
             </li>
