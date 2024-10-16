@@ -14,6 +14,7 @@ import secureTrace4 from "./assets/img/4.png";
 import Footer from "./Components/Footer";
 import HowItWorks from "./Components/HowItWorks";
 import VideoSection from "./Components/ServerVideo";
+import DataSimplificationSection from "./Components/DataSimplification";
 function App() {
   const images = [secureTrace, secureTrace2, secureTrace3, secureTrace4];
   const carouselRef = useRef(null);
@@ -50,7 +51,8 @@ function App() {
           <HowItWorks />
         </div>
         <VideoSection />
-        <div className="px-10 mt-10 lg:mt-0 mb-10 lg:mb-0">
+        <div className="px-20 mt-10 lg:mt-0 mb-10 lg:mb-0">
+          <DataSimplificationSection /> 
           <InfiniteCarousel images={images} />
         </div>
         <Footer />
