@@ -54,6 +54,7 @@ function App() {
         <VideoSection />
         <DataSimplificationSection />
         <div className="px-10 mt-10 lg:mt-0 mb-10 lg:mb-0">
+          <LayeredSupportSection />
           <InfiniteCarousel images={images} />
         </div>
         <Footer />
