@@ -4,7 +4,7 @@ import BlueKey from "../assets/img/bluekey.webp";
 
 const DataSimplificationSection = () => {
   return (
-    <div className="bg-gray-100 py-16">
+    <div className="bg-gray-100 py-16 mb-20">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
         {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
@@ -31,7 +31,7 @@ const DataSimplificationSection = () => {
           <img
             src={BlueKey}
             alt="Security with Blockchain"
-            className="w-full h-64 object-cover "
+            className="w-full h-64 object-cover object-top "
           />
           <div className="p-6 flex-grow">
             <h3 className="text-2xl font-bold mb-4">Security with Blockchain</h3>
