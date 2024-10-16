@@ -10,6 +10,9 @@ export default {
         raleway: ["Raleway", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
       },
+      animation: {
+        "spin-slow": "spin 100s linear infinite",
+      }
     },
     screens: {
       sm: "640px",

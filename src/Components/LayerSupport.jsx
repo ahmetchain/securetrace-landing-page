@@ -8,7 +8,7 @@ const LayeredSupportSection = () => {
       <img
         src={Layer}
         alt="Layered Data Visualization"
-        className="absolute inset-0 w-full h-full object-cover opacity-40"
+        className="absolute inset-0 w-full h-full object-cover opacity-40  transition-all animate-spin-slow"
       />
 
       {/* Cam Efektli Metin Kutusu */}
