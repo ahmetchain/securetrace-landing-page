@@ -6,7 +6,6 @@ const DataSimplificationSection = () => {
   return (
     <div className="bg-gray-100 py-16 mb-20 mx-10 rounded-md">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
-        {/* Card 1 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
           <img
             src={BigData}
@@ -26,7 +25,6 @@ const DataSimplificationSection = () => {
           </div>
         </div>
 
-        {/* Card 2 */}
         <div className="bg-white rounded-lg shadow-lg overflow-hidden flex flex-col">
           <img
             src={BlueKey}

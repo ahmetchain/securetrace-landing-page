@@ -42,7 +42,7 @@ const HowItWorks = () => {
             <h3 className="text-xl font-semibold mb-2 text-white">
               {step.title}
             </h3>
-            <p className="text-gray-200">{step.description}</p>
+            <p className="text-white z-10">{step.description}</p>
             {index < steps.length - 1 
             && (
               <div className="absolute lg:inset-y-1/2 lg:right-0 transform lg:translate-x-1/2 translate-y-1/2 left-1/2 bottom-0 -translate-x-1/2 text-4xl rotate-90 lg:rotate-0 text-white">
