@@ -51,8 +51,8 @@ function App() {
           <HowItWorks />
         </div>
         <VideoSection />
-        <div className="px-20 mt-10 lg:mt-0 mb-10 lg:mb-0">
-          <DataSimplificationSection /> 
+        <DataSimplificationSection /> 
+        <div className="px-10 mt-10 lg:mt-0 mb-10 lg:mb-0">
           <InfiniteCarousel images={images} />
         </div>
         <Footer />
