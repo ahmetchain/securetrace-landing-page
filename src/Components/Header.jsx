@@ -31,7 +31,7 @@ export default function Header() {
 
   return (
     <div
-      className={`fixed py-5 top-0 left-0 w-full z-10 flex justify-between items-center lg:px-32 md:px-16 px-4 transition-all duration-300 ${
+      className={`fixed py-5 top-0 left-0 w-full z-30 flex justify-between items-center lg:px-32 md:px-16 px-4 transition-all duration-300 ${
         scrolled ? "bg-gray-800/50 shadow-md" : ""
       } ${isVisible ? "translate-y-0" : "-translate-y-full"}`}
     >
